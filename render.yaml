@@ -10,7 +10,7 @@ services:
 
     startCommand: python3 bot.py
 
-    buildCommand: pip3 install -U -r requirements.txt
+    buildCommand: pip3 install -U -r requirements.txt pip install aiohttp
 
     repo: https://github.com/Sydxyz/ProGroupBot.git # optional
 
